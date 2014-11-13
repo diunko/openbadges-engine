@@ -18,7 +18,7 @@ modules.define('auth', ['i-bem__dom', 'jquery', 'querystring'], function (provid
 
                         $.post('/auth', formVals)
                             .error(function (err) {
-                                if (err.status === 401 || err.status === 400) {
+                                if (err.status === 400) {
                                     button.delMod('disabled');
                                     spin.delMod('progress');
                                     error.delMod('disabled');
