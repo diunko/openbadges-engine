@@ -1,10 +1,10 @@
 {
   "admin": {
-    "username": "",
-    "password": ""
+    "username": "admin",
+    "password": "admin"
   },
   "badgesStorage": {
-    "token" : "",
-    "repo": ""
+    "token" : "bf5a5c95c468c35b621d772df73fe02147d661f5",
+    "repo": "https://github.com/eGavr/openbadges-data.git"
   }
 }

@@ -1,5 +1,4 @@
 node_modules/
-private-key.pem
 
 .enb/tmp/
 libs/
